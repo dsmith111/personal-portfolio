@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+.intro {
+  margin-bottom: 2;
+}
+.border-2 {
+    border-width:2px !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.border-silver {
+    border-color:rgb(155,155,155) !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.border-deepblue{
+  border-color: rgb(20,20,80) !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.list-intro {
+  font-size:25px;
+  color:white;
+
 }
 
-.App-link {
-  color: #61dafb;
+.name-header{
+  font-family:Roboto;
+  font-weight: bold;
+  font-size: 85px;
+  color:white;
+  padding-left: 36%;
+}
+.name-subtitle{
+  font-family:Roboto;
+  font-weight: bold;
+  font-size: 20px;
+  color:white;
+  padding-left: 34%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.intro-block{
+  background-color: rgb(175,175,175,0);
+  padding: 50px;
+}
+
+.skill-bgblock{
+  background-color: rgb(85,85,85);
+
+  /*box-shadow: inset -4px -4px 9px rgb(200,200,200);*/
+}
+
+.skill-block{
+  background-color: rgb(255,255,255);
+  box-shadow:  4px 15px 9px;
+
+}
+
+.button-dark{
+  background-color: rgb(80,80,80);
+  border-radius: 2px;
+  z-index: 2;
+  opacity: .8;
+}
+
+.dark-navbox{
+  background-color: rgb(100,100,100);
+  border-width: 8px;
+  border-color: black;
+  border-radius: 3px;
+  padding-left: 9px;
+
+}
+.nav-text{
+
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar-track{
+  position: fixed;
+  top: 25px;
+  z-index: 1;
+}
+
+.section-header{
+  padding-bottom: 50px;
+}
+
+.footer{
+  background-color: rgb(65,65,65);
+  color: rgb(140, 140, 140);
+  padding-top: 55px;
+
 }
