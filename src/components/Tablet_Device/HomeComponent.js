@@ -6,7 +6,7 @@ function Intro(){
   const list_spacing = 5;
   return(
     <Parallax
-      bgImage="/assets/wires.png"
+      bgImage= {`${process.env.PUBLIC_URL}/assets/wires.png`}
       bgImageAlt='Error'
       strength={300}
       blur={3}>
@@ -74,7 +74,7 @@ function Skills(){
           </div>
         </div>
         <div className = "col-5 offset-1 mt-5">
-          <img src="/assets/david.JPG" alt="Head Shot" width="100%" className="border border-dark"/>
+          <img src={`${process.env.PUBLIC_URL}/assets/david.JPG`} alt="Head Shot" width="100%" className="border border-dark"/>
         </div>
       </div>
 

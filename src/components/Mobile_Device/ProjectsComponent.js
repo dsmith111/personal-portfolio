@@ -6,7 +6,7 @@ function TopBar(){
   const list_spacing = 5;
   return(
     <Parallax
-      bgImage="/assets/wires.png"
+      bgImage={`${process.env.PUBLIC_URL}/assets/wires.png`}
       bgImageAlt='Error'
       strength={300}
       blur={3}>
@@ -51,7 +51,7 @@ function ProjectList(){
                 attaching to doors through magnets. This would allow for the device
                 to be truly portable, allowing for its quick and easy application
                 to any door.
-                <p><img src="/assets/mechdevice.jpg" width="50%"
+                <p><img src={`${process.env.PUBLIC_URL}/assets/mechdevice.jpg`} width="50%"
                    alt="Test" className="border border-2 border-dark mt-2"/></p>
               </Media>
             </Media>
@@ -65,7 +65,7 @@ function ProjectList(){
                 heat-exchangers for use in NASA's electrified aircraft initiative.
                 In-addition, I also worked with NASA Glen Research Engineers on the
                 development of a device which could enact our testing procedures.
-                <p><img src="/assets/snr.jpg" width="50%"
+                <p><img src={`${process.env.PUBLIC_URL}/assets/snr.jpg`} width="50%"
                    alt="Test" className="border border-2 border-dark mt-2"/></p>
               </Media>
             </Media>
@@ -83,7 +83,7 @@ function ProjectList(){
                 behaviors and would modify itself with each new generation allowing for
                 an attempt at simulating evolution while also adhering to Lotka-Volterra
                 models.
-                <p><img src="/assets/eco.png" width="50%"
+                <p><img src={`${process.env.PUBLIC_URL}/assets/eco.png`} width="50%"
                    alt="Test" className="border border-2 border-dark mt-2"/></p>
               </Media>
             </Media>

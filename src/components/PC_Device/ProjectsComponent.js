@@ -6,7 +6,7 @@ function TopBar(){
   const list_spacing = 5;
   return(
     <Parallax
-      bgImage="/assets/wires.png"
+      bgImage={`${process.env.PUBLIC_URL}/assets/wires.png`}
       bgImageAlt='Error'
       strength={300}
       blur={3}>
@@ -44,7 +44,7 @@ function ProjectList(){
             <Media tag='li' className="mb-5">
 
               <Media body>
-                <Media object src="/assets/mechdevice.jpg" width="20%" alt="Test" className="border border-2 border-dark mb-3 "/>
+                <Media object src={`${process.env.PUBLIC_URL}/assets/mechdevice.jpg`} width="20%" alt="Test" className="border border-2 border-dark mb-3 "/>
                 <Media heading>
                   Portable RFID Badge-Access Lock
                 </Media>
@@ -60,7 +60,7 @@ function ProjectList(){
             <Media tag='li' className="mb-5">
 
               <Media body>
-                <Media object src="/assets/snr.jpg" width="20%" alt="Test" className="border border-2 border-dark mb-3"/>
+                <Media object src={`${process.env.PUBLIC_URL}/assets/snr.jpg`} width="20%" alt="Test" className="border border-2 border-dark mb-3"/>
                 <Media heading>
                   Device and Procedure for Testing Heat Exchangers for NASA
                 </Media>
@@ -74,7 +74,7 @@ function ProjectList(){
 
             <Media tag='li'>
               <Media body>
-                <Media object src="/assets/eco.png" width="20%"
+                <Media object src={`${process.env.PUBLIC_URL}/assets/eco.png`} width="20%"
                   alt="Test" className="border border-2 border-dark mb-3"/>
                 <Media heading>
                   Lotka-Volterra and Evolution AI-Esque Simulation

@@ -5,29 +5,29 @@ import Gallery from 'react-grid-gallery';
 const IMAGES =
 [
   {
-    src:"/assets/ted.JPG",
-    thumbnail:"/assets/ted.JPG",
+    src:`${process.env.PUBLIC_URL}/assets/ted.JPG`,
+    thumbnail:`${process.env.PUBLIC_URL}/assets/ted.JPG`,
     thumbnailWidth: "6%",
     thumbnailHeight: "1%",
     caption: "Group photo after the conclusion of the TEDx event I organized Sophomore-Junior year of college."
   },
   {
-    src:"/assets/family.JPG",
-    thumbnail:"/assets/family.JPG",
+    src:`${process.env.PUBLIC_URL}/assets/family.JPG`,
+    thumbnail:`${process.env.PUBLIC_URL}/assets/family.JPG`,
     thumbnailWidth: "3%",
     thumbnailHeight: "5%",
     caption: "Some of my family."
   },
   {
-    src:"/assets/overlook.JPG",
-    thumbnail:"/assets/overlook.JPG",
+    src:`${process.env.PUBLIC_URL}/assets/overlook.JPG`,
+    thumbnail:`${process.env.PUBLIC_URL}/assets/overlook.JPG`,
     thumbnailWidth: "2%",
     thumbnailHeight: "5%",
     caption: "Hiking around Bodega Head."
   },
   {
-    src:"/assets/cedric.JPG",
-    thumbnail:"/assets/cedric.JPG",
+    src:`${process.env.PUBLIC_URL}/assets/cedric.JPG`,
+    thumbnail:`${process.env.PUBLIC_URL}/assets/cedric.JPG`,
     thumbnailWidth: "6%",
     thumbnailHeight: "5%",
     caption: "Photo with Fields Medalist, Cedric Vilani."
@@ -39,7 +39,7 @@ function Intro(){
   const list_spacing = 5;
   return(
     <Parallax
-      bgImage="/assets/wires.png"
+      bgImage={`${process.env.PUBLIC_URL}/assets/wires.png`}
       bgImageAlt='Error'
       strength={300}
       blur={3}>

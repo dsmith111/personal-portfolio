@@ -6,7 +6,7 @@ function TopBar(){
   const list_spacing = 5;
   return(
     <Parallax
-      bgImage="/assets/wires.png"
+      bgImage={`${process.env.PUBLIC_URL}/assets/wires.png`}
       bgImageAlt='Error'
       strength={300}
       blur={3}>

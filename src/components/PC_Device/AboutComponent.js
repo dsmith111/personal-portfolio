@@ -5,36 +5,36 @@ import Gallery from 'react-grid-gallery';
 const IMAGES =
 [
   {
-    src:"/assets/ted.JPG",
-    thumbnail:"/assets/ted.JPG",
+    src:`${process.env.PUBLIC_URL}/assets/ted.JPG`,
+    thumbnail:`${process.env.PUBLIC_URL}/assets/ted.JPG`,
     thumbnailWidth: 420,
     thumbnailHeight: 250,
     caption: "Group photo after the conclusion of the TEDx event I organized Sophomore-Junior year of college."
   },
   {
-    src:"/assets/family.JPG",
-    thumbnail:"/assets/family.JPG",
+    src:`${process.env.PUBLIC_URL}/assets/family.JPG`,
+    thumbnail:`${process.env.PUBLIC_URL}/assets/family.JPG`,
     thumbnailWidth: 230,
     thumbnailHeight: 250,
     caption: "Some of my family."
   },
   {
-    src:"/assets/overlook.JPG",
-    thumbnail:"/assets/overlook.JPG",
+    src:`${process.env.PUBLIC_URL}/assets/overlook.JPG`,
+    thumbnail:`${process.env.PUBLIC_URL}/assets/overlook.JPG`,
     thumbnailWidth: 210,
     thumbnailHeight: 250,
     caption: "Hiking around Bodega Head."
   },
   {
-    src:"/assets/cedric.JPG",
-    thumbnail:"/assets/cedric.JPG",
+    src:`${process.env.PUBLIC_URL}/assets/cedric.JPG`,
+    thumbnail:`${process.env.PUBLIC_URL}/assets/cedric.JPG`,
     thumbnailWidth: 460,
     thumbnailHeight: 250,
     caption: "Photo with Fields Medalist, Cedric Vilani."
   },
   {
-    src:"/assets/fencing.jpg",
-    thumbnail:"/assets/fencing.jpg",
+    src:`${process.env.PUBLIC_URL}/assets/fencing.jpg`,
+    thumbnail:`${process.env.PUBLIC_URL}/assets/fencing.jpg`,
     thumbnailWidth: 460,
     thumbnailHeight: 250,
     caption: "A photo taken of my final fencing bout (I'm on the left)."
@@ -45,7 +45,7 @@ function Intro(){
   const list_spacing = 5;
   return(
     <Parallax
-      bgImage="/assets/wires.png"
+      bgImage={`${process.env.PUBLIC_URL}/assets/wires.png`}
       bgImageAlt='Error'
       strength={300}
       blur={3}>

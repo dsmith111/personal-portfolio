@@ -6,7 +6,7 @@ function Intro(){
   const list_spacing = 5;
   return(
     <Parallax
-      bgImage="/assets/wires.png"
+      bgImage={`${process.env.PUBLIC_URL}/assets/wires.png`}
       bgImageAlt='Error'
       strength={300}
       blur={3}>
@@ -34,7 +34,7 @@ function Skills(){
 
            }}>
         <div className = "col-12" style={{marginTop:"8%"}}>
-          <img src="/assets/david.JPG" alt="Head Shot" width="55%" className="border border-dark"/>
+          <img src={`${process.env.PUBLIC_URL}/assets/david.JPG`} alt="Head Shot" width="55%" className="border border-dark"/>
           <h1 className="display-3 section-header mt-4" style={{fontSize:"160%"}}> Skills/Proficiencies </h1>
             <div style={{ fontSize:"75%"}}>
             <p>Owing to multi-disciplinary projects, I have skills in a variety of areas:</p>
