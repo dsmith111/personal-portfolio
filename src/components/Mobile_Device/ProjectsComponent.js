@@ -10,7 +10,7 @@ function TopBar(){
       bgImageAlt='Error'
       strength={300}
       blur={3}>
-      <div className = "container-fluid" style={{marginBottom:100}}>
+      <div className = "container-fluid" style={{marginBottom:"10%", paddingTop:"15%"}}>
         <div className = "row">
         </div>
       </div>
@@ -18,31 +18,31 @@ function TopBar(){
   );
 }
 
+
 function ProjectList(){
   return(
     <div className="container-fluid skill-bgblock border-dark border-top border-2"
-      style={{height:825}}>
-      <div className="row skill-block"
+      style={{}}>
+      <div className = "row skill-block"
         style={{
-        "marginLeft": 110,
-        "marginRight": 110,
+        "marginLeft": "5.8%",
+        "marginRight": "5.8%",
          "paddingTop": 0,
-         height:725
+         paddingBottom: "48%",
+
+         height:"94%"
            }}>
 
-        <div className="col-8"
-          style={{paddingLeft:100,
-          paddingTop:60}}>
-          <h1 className='display-3 mb-3'>Projects</h1>
+        <div className="col-12"
+          style={{
+          paddingTop:60,
+          }}>
+          <h1 className='display-3 mb-3' style={{fontSize:"180%"}}>Projects</h1>
           <Media list>
 
             <Media tag='li' className="mb-5">
-              <Media left>
-                <Media object src="/assets/mechdevice.jpg" width="120px"
-                  height="120px" alt="Test" className="border border-2 border-dark mr-2"/>
-              </Media>
-              <Media body>
-                <Media heading>
+              <Media body style={{fontSize:"70%"}}>
+                <Media heading style={{fontSize:"115%", fontWeight:"bold"}}>
                   Portable RFID Badge-Access Lock
                 </Media>
                 This project was based around the development of a device capable
@@ -51,16 +51,13 @@ function ProjectList(){
                 attaching to doors through magnets. This would allow for the device
                 to be truly portable, allowing for its quick and easy application
                 to any door.
+                <p><img src="/assets/mechdevice.jpg" width="50%"
+                   alt="Test" className="border border-2 border-dark mt-2"/></p>
               </Media>
             </Media>
-
             <Media tag='li' className="mb-5">
-              <Media left>
-                <Media object src="/assets/snr.jpg" width="150px"
-                  height="100px" alt="Test" className="border border-2 border-dark mr-2"/>
-              </Media>
-              <Media body>
-                <Media heading>
+              <Media body style={{fontSize:"70%"}}>
+                <Media heading style={{fontSize:"115%", fontWeight:"bold"}}>
                   Device and Procedure for Testing Heat Exchangers for NASA
                 </Media>
                 For my undergrad capstone project, I led a team through the challenge
@@ -68,17 +65,14 @@ function ProjectList(){
                 heat-exchangers for use in NASA's electrified aircraft initiative.
                 In-addition, I also worked with NASA Glen Research Engineers on the
                 development of a device which could enact our testing procedures.
+                <p><img src="/assets/snr.jpg" width="50%"
+                   alt="Test" className="border border-2 border-dark mt-2"/></p>
               </Media>
             </Media>
-
-            <Media tag='li'>
-              <Media left>
-                <Media object src="/assets/eco.png" width="120px"
-                  height="120px" alt="Test" className="border border-2 border-dark mr-2"/>
-              </Media>
-              <Media body>
-                <Media heading>
-                  Lotka-Volterra and Evolution AI-Esque Simulation
+            <Media tag='li' className="mb-5">
+              <Media body style={{fontSize:"70%"}}>
+                <Media heading style={{fontSize:"115%", fontWeight:"bold"}}>
+                    Lotka-Volterra and Evolution AI-Esque Simulation
                 </Media>
                 Started during my undergrad, and continued in my free-time, I
                 worked on a program which could provide a low-level simulation of
@@ -89,9 +83,10 @@ function ProjectList(){
                 behaviors and would modify itself with each new generation allowing for
                 an attempt at simulating evolution while also adhering to Lotka-Volterra
                 models.
+                <p><img src="/assets/eco.png" width="50%"
+                   alt="Test" className="border border-2 border-dark mt-2"/></p>
               </Media>
             </Media>
-
           </Media>
         </div>
       </div>

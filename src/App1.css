@@ -22,26 +22,26 @@
 .name-header{
   font-family:Roboto;
   font-weight: bold;
-  font-size: 530%;
+  font-size: 85px;
   color:white;
-  padding-left: 36%;
+  padding-left: 30%;
 }
 .name-subtitle{
   font-family:Roboto;
   font-weight: bold;
-  font-size: 123%;
+  font-size: 20px;
   color:white;
-  padding-left: 34%;
+  padding-left: 26%;
 }
 
 .intro-block{
   background-color: rgb(175,175,175,0);
-  padding: 3.7%;
+  padding: 80px;
 }
 
 .skill-bgblock{
   background-color: rgb(85,85,85);
-  height:1300px;
+
   /*box-shadow: inset -4px -4px 9px rgb(200,200,200);*/
 }
 
@@ -63,28 +63,28 @@
   border-width: 8px;
   border-color: black;
   border-radius: 3px;
-  padding-left: 11%;
+  padding-left: 9px;
 
 }
 .nav-text{
 
-  font-size: 115%;
+  font-size: 18px;
   font-weight: bold;
 }
 
 .navbar-track{
   position: fixed;
-  top: 2.6%;
+  top: 25px;
   z-index: 1;
 }
 
 .section-header{
-  padding-bottom: 7%;
+  padding-bottom: 50px;
 }
 
 .footer{
   background-color: rgb(65,65,65);
   color: rgb(140, 140, 140);
-  padding-top: 2.85%;
+  padding-top: 55px;
 
 }

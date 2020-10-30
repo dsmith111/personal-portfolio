@@ -7,7 +7,7 @@ import StickyHeader from './StickyHeaderComponent';
 import Footer from './FooterComponent';
 import {Switch, Route, Redirect} from 'react-router-dom';
 
-class Main extends Component{
+class MainMobile extends Component{
 
   render(){
     return(
@@ -26,4 +26,4 @@ class Main extends Component{
   }
 }
 
-export default Main;
+export default MainMobile;
