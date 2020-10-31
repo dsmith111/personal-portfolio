@@ -18,7 +18,7 @@ class MainPC extends Component{
           <Route path="/about" component={About} />
           <Route path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />
-          <Redirect to=''/>
+          <Redirect to='/'/>
         </Switch>
         <Footer />
       </div>
