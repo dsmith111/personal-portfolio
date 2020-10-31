@@ -14,11 +14,11 @@ class MainPC extends Component{
       <div>
         <StickyHeader />
         <Switch>
-          <Route path="/home" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />
-          <Redirect to='/home' />
+          <Redirect to=''/>
         </Switch>
         <Footer />
       </div>
