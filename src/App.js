@@ -11,7 +11,7 @@ const Desktop = ({ children }) => {
   return isDesktop ? children : null
 }
 const Tablet = ({ children }) => {
-  const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1022 })
+  const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1023 })
   // const isPortrait = useMediaQuery({orientation: 'landscape'})
   return (isTablet) ? children : null
 }

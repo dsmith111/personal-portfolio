@@ -73,7 +73,7 @@ function Skills(){
         <div className = "col-5 offset-1" style={{marginTop:135, height:600}}>
           <h1 className="display-3 section-header"> About Me </h1>
             <div style={{fontSize:18}}>
-              <p>I am a master's student studying Computer Engineering and Artificial intelligence
+              <p>I am a master's student studying Computer Engineering and Artificial Intelligence
               at the University of Michigan, Dearborn.</p>
               <p>Previously, I have worked as a material researcher for the Polymer and
               Inorganic Composites, Structures and Surfaces Lab at the University of Toledo (PICCSL),
