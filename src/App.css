@@ -2,89 +2,161 @@
   margin-bottom: 2;
 }
 .border-2 {
-    border-width:2px !important;
+  border-width: 2px !important;
 }
 
 .border-silver {
-    border-color:rgb(155,155,155) !important;
+  border-color: rgb(155, 155, 155) !important;
 }
 
-.border-deepblue{
-  border-color: rgb(20,20,80) !important;
+.border-deepblue {
+  border-color: rgb(20, 20, 80) !important;
 }
 
 .list-intro {
-  font-size:25px;
-  color:white;
-
+  font-size: 25px;
+  color: white;
 }
 
-.name-header{
-  font-family:Roboto;
+.name-header {
+  font-family: Roboto;
   font-weight: bold;
   font-size: 530%;
-  color:white;
+  color: white;
   padding-left: 36%;
 }
-.name-subtitle{
-  font-family:Roboto;
+.name-subtitle {
+  font-family: Roboto;
   font-weight: bold;
   font-size: 123%;
-  color:white;
+  color: white;
   padding-left: 34%;
 }
 
-.intro-block{
-  background-color: rgb(175,175,175,0);
+.intro-block {
+  background-color: rgb(175, 175, 175, 0);
   padding: 3.7%;
 }
 
-.skill-bgblock{
-  background-color: rgb(85,85,85);
-  height:1300px;
+.skill-bgblock {
+  background-color: rgb(85, 85, 85);
+  height: 1300px;
   /*box-shadow: inset -4px -4px 9px rgb(200,200,200);*/
 }
 
-.skill-block{
-  background-color: rgb(255,255,255);
-  box-shadow:  4px 15px 9px;
-
+.skill-block {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 4px 15px 9px;
 }
 
-.button-dark{
-  background-color: rgb(80,80,80);
+.button-dark {
+  background-color: rgb(80, 80, 80);
   border-radius: 2px;
   z-index: 2;
-  opacity: .8;
+  opacity: 0.8;
 }
 
-.dark-navbox{
-  background-color: rgb(100,100,100);
+.dark-navbox {
+  background-color: rgb(100, 100, 100);
   border-width: 8px;
   border-color: black;
   border-radius: 3px;
   padding-left: 11%;
-
 }
-.nav-text{
-
+.nav-text {
   font-size: 115%;
   font-weight: bold;
 }
 
-.navbar-track{
+.navbar-track {
   position: fixed;
   top: 2.6%;
   z-index: 1;
 }
 
-.section-header{
+.section-header {
   padding-bottom: 7%;
 }
 
-.footer{
-  background-color: rgb(65,65,65);
+.footer {
+  background-color: rgb(65, 65, 65);
   color: rgb(140, 140, 140);
   padding-top: 2.85%;
+}
 
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #039ab4;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  color: #bdc3c7;
+  text-decoration: none !important;
+  outline: none;
+  font-size: 2em;
+  padding-bottom: 1em;
+}
+.bm-item:hover {
+  color: #06bddd !important;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
 }
