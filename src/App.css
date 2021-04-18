@@ -1,90 +1,63 @@
-.intro {
-  margin-bottom: 2;
+.homepage {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 45em;
+  padding-bottom: 3em;
+  background-color: #f0ffff;
+  /* border-radius: 2%; */
+  /* padding-top: 2em; */
 }
-.border-2 {
-    border-width:2px !important;
+.main-header-wrap {
+  background-color: "transparent";
 }
-
-.border-silver {
-    border-color:rgb(155,155,155) !important;
+.main-header-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 35em;
+  text-align: center;
+  color: #54daff;
+  background-color: rgb(0, 0, 0, 0.3);
+  width: 100%;
+  /* margin-left: 5%; */
+  /* border-radius: 2%; */
+  justify-content: center;
 }
-
-.border-deepblue{
-  border-color: rgb(20,20,80) !important;
-}
-
-.list-intro {
-  font-size:25px;
-  color:white;
-
-}
-
-.name-header{
-  font-family:Roboto;
-  font-weight: bold;
-  font-size: 530%;
-  color:white;
-  padding-left: 36%;
-}
-.name-subtitle{
-  font-family:Roboto;
-  font-weight: bold;
-  font-size: 123%;
-  color:white;
-  padding-left: 34%;
-}
-
-.intro-block{
-  background-color: rgb(175,175,175,0);
-  padding: 3.7%;
-}
-
-.skill-bgblock{
-  background-color: rgb(85,85,85);
-  height:1300px;
-  /*box-shadow: inset -4px -4px 9px rgb(200,200,200);*/
-}
-
-.skill-block{
-  background-color: rgb(255,255,255);
-  box-shadow:  4px 15px 9px;
-
-}
-
-.button-dark{
-  background-color: rgb(80,80,80);
-  border-radius: 2px;
-  z-index: 2;
-  opacity: .8;
-}
-
-.dark-navbox{
-  background-color: rgb(100,100,100);
-  border-width: 8px;
-  border-color: black;
-  border-radius: 3px;
-  padding-left: 11%;
-
-}
-.nav-text{
-
-  font-size: 115%;
-  font-weight: bold;
-}
-
-.navbar-track{
-  position: fixed;
-  top: 2.6%;
+.body-wrap {
+  /* padding-right: 1em; */
+  /* padding-left: 0.55em; */
+  width: 100%;
+  /* padding-top: 1em; */
   z-index: 1;
 }
+.bg-image {
+  width: 100%;
+  position: sticky;
 
-.section-header{
-  padding-bottom: 7%;
+  left: 0;
+  top: 0;
+}
+.skill-intro {
+  /* font-family: Arial; */
+  font-size: 1.8em;
+  font-weight: bold;
+  padding-top: 1%;
+  padding-left: 0.5em;
+  color: black;
 }
 
-.footer{
-  background-color: rgb(65,65,65);
-  color: rgb(140, 140, 140);
-  padding-top: 2.85%;
-
+.list-header {
+  font-weight: 600;
+  font-size: 1.2em;
+  margin-bottom: -0.2em;
+}
+.list-sub-header {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1.1em;
+}
+.list-item {
+  font-weight: 400;
+  margin-bottom: 1.2em;
 }
