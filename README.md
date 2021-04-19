@@ -1,3 +1,3 @@
 # My Portfolio
 
-My portfolio web app was created using React.
+This is my portfolio website. Feel free to use!
