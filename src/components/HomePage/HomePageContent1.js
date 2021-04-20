@@ -32,18 +32,19 @@ export default function PageContent() {
                 <p class="list-item-desc">
                   Working in the React and React Native Frameworks, I have
                   written thousands of lines of code, I have overcome a myriad
-                  of challenges, and have developed multiple websites and mobile
-                  applications.
+                  of challenges, and I have developed multiple websites and
+                  mobile applications.
                 </p>
               </li>
               <li>
                 Python
                 <p class="list-item-desc">
-                  While pursuing my concentration in AI, I primarily use Python.
-                  Due to the long training or building times that plagues the
-                  field of AI, I am constantly looking at ways to improve my
-                  technical expertise of Python. This way I can ensure my code
-                  is always optimized and running as fast as it is capable of.
+                  While pursuing my concentration in AI, I primarily handle the
+                  backend and models in Python. Due to the long training or
+                  building times that plagues the field of AI, I am constantly
+                  looking at ways to improve my technical expertise of Python.
+                  This way I can ensure my code is always optimized and running
+                  as fast as it is capable of.
                 </p>
               </li>
               <li>
@@ -57,8 +58,8 @@ export default function PageContent() {
                 C#
                 <p class="list-item-desc">
                   Having developed a handful of games, my favorite engine is
-                  Unity, and as a result, I have written thousands of lines in
-                  C# for them. Each game requiring complex algorithms to achieve
+                  Unity. I have written thousands of lines in C# while working
+                  on them. Each game required complex algorithms to achieve
                   results unique to that game, or to increase the game's speed.
                 </p>
               </li>
@@ -80,7 +81,7 @@ export default function PageContent() {
                 AWS
                 <p class="list-item-desc">
                   I use AWS to handle the back-end of most of the applications I
-                  work on. I am certified as a Cloud Practicioner and as a Cloud
+                  work on. I am certified as a Cloud Practitioner and as a Cloud
                   Solutions Architect.
                 </p>
               </li>
@@ -94,14 +95,14 @@ export default function PageContent() {
               <li>
                 MongoDB
                 <p class="list-item-desc">
-                  Most of the applications I tend to work on end up using
-                  MongoDB as their primary database.
+                  I usually end up using MongoDB as the primary database for
+                  most of the applications I work on.
                 </p>
               </li>
               <li>
                 DynamoDB
                 <p class="list-item-desc">
-                  I created an API using Nodes.js, different AWS services with
+                  I created an API using Nodes.js, a variety of AWS services and
                   DynamoDB as its database.
                 </p>
               </li>
@@ -127,10 +128,9 @@ export default function PageContent() {
                 Region Proposal Networks
                 <p class="list-item-desc">
                   While working on a vehicle ready CNN based object recognition
-                  system. I ended up experimenting with different region
-                  proposal methods but ended up utilizing the selective search
-                  algorithm to create a region proposal network for an R-CNN
-                  model.
+                  system, I experimented with different region proposal methods
+                  but ended up utilizing the selective search algorithm to
+                  create a region proposal network for an R-CNN model.
                 </p>
               </li>
             </ul>
@@ -174,8 +174,8 @@ export default function PageContent() {
                 <p class="list-item-desc">
                   Through my undergraduate pursuit of mechanical engineering, I
                   have used Solidworks on many occasions within my projects. I
-                  continue to use Solidworks to create precise parts for my 3D
-                  printer whenever I am working on a side-project.
+                  continue to use Solidworks to create custom parts for any
+                  side-projects I am working on.
                 </p>
               </li>
               <li>AutoCAD</li>
@@ -184,7 +184,7 @@ export default function PageContent() {
                 <p class="list-item-desc">
                   MATLAB was the first programming language that I was taught in
                   a proper class room environment. For years in my
-                  undergraduate, this was my go to language.
+                  undergraduate, this was my go-to language.
                 </p>
               </li>
             </ul>

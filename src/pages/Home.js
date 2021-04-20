@@ -44,7 +44,7 @@ export default function HomePage() {
       <Paper class="main-header-wrap" elevation={1}>
         <Parallax
           blur={1.2}
-          strength={300}
+          strength={230}
           bgImage={`${process.env.PUBLIC_URL}/assets/cloudycomp.png`}
         >
           <Box width="100%" paddingTop="0em" minHeight="35em">
