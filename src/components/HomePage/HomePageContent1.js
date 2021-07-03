@@ -39,11 +39,13 @@ export default function PageContent() {
               <li>
                 Python
                 <p class="list-item-desc">
-                  While pursuing my concentration in AI, I primarily use Python.
-                  Due to the long training or building times that plagues the
-                  field of AI, I am constantly looking at ways to improve my
-                  technical expertise of Python. This way I can ensure my code
-                  is always optimized and running as fast as it is capable of.
+                  While pursuing my concentration in AI, I primarily use Python
+                  to develop models. I also have written data collection and
+                  processing scripts, some webscrapers and a handful of lambda
+                  functions in Python. I am constantly looking at ways to
+                  improve my technical expertise of Python. This way I can
+                  ensure my code is always optimized and running as fast as it
+                  is capable of.
                 </p>
               </li>
               <li>

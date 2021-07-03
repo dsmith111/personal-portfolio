@@ -35,12 +35,12 @@ export default function PageContent() {
             Intelligence at the University of Michigan - Dearborn.
           </p>
           <p>
-            Currently I work as a Software Engineer for WynHouse Software, but I
-            am an incoming Intern Software Engineer at the NASA Glenn Research
-            Center. Previously, I have worked as a material researcher for the
-            Polymer and Inorganic Composites, Structures and Surfaces Lab at the
-            University of Toledo (PICCSL), and as an Industrial Engineer at
-            Ford, GM, and Chrysler.
+            Currently I work as a Software Engineer Intern for the NASA Glenn
+            Research Center. Previously, I have worked as a full stack engineer
+            for WynHouse Software, a material researcher for the Polymer and
+            Inorganic Composites, Structures and Surfaces Lab at the University
+            of Toledo (PICCSL), and as an Industrial Engineer at Ford, GM, and
+            Chrysler.
           </p>
           <p>
             I have my Bachelor's of Science in Mechanical Engineering with
