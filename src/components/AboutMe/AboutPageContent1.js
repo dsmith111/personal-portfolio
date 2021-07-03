@@ -43,20 +43,20 @@ export default function PageContent() {
             Chrysler.
           </p>
           <p>
-            I have my Bachelor's of Science in Mechanical Engineering with
-            minors in physics and mathematics from the University of Toledo. I
-            have two publications and one pending patent in the field of
-            graphene-based transient electronics. I am certified in AWS as a
-            Cloud Practitioner and a Cloud Solutions Architect. I am a
-            contributor to a chemical engineering textbook used by ZyBooks (a
-            Wiley subsidary). I also have organized and led a TEDx event, taking
-            in speakers from NASA, Fermi Lab and more.
+            I have a Bachelor's of Science in Mechanical Engineering with minors
+            in physics and mathematics from the University of Toledo. I have two
+            publications and one pending patent in the field of graphene-based
+            transient electronics. I am certified in AWS as a Cloud Practitioner
+            and a Cloud Solutions Architect. I am a contributor to a chemical
+            engineering textbook used by ZyBooks (a Wiley subsidary). I also
+            have organized and led a TEDx event, taking in speakers from NASA,
+            Fermi Lab and more.
           </p>
           <p>
             I have a growing love for the field of Artificial Intelligence,
             mainly in computer vision and reinforcement learning. I am fond of
             the idea of embedded AI systems. Ranging from telling you what the
-            weather is, to controlling a robot, or optimizing flight
+            weather is, to controlling a robot, or even optimizing flight
             trajectories on a rocket, there are still great strides yet to be
             made in this area and I wish to be a part of them.
           </p>
