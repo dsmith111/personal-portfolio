@@ -31,42 +31,42 @@ export default function HomePage() {
   };
 
   return (
-    <div class="homepage">
+    <div className="homepage">
       <AppBar
         elevation={2}
-        style={{ backgroundColor: "#21d1b9" }}
+        style={{ backgroundColor: "#1b32b6" }}
         position="sticky"
       >
         <Toolbar>
-          <p class="toolbar-text">David Smith's Portfolio</p>
+          <p className="toolbar-text">David Smith's Portfolio</p>
         </Toolbar>
       </AppBar>
-      <Paper class="main-header-wrap" elevation={1}>
+      <Paper className="main-header-wrap" elevation={1}>
         <Parallax
           blur={1.2}
           strength={230}
           bgImage={`${process.env.PUBLIC_URL}/assets/cloudycomp.png`}
         >
           <Box width="100%" paddingTop="0em" minHeight="35em">
-            <div class="main-header-text">
+            <div className="main-header-text">
               <h1>Software | AI | Mechanical Engineer</h1>
             </div>
-            <div class="main-header-icons">
+            <div className="main-header-icons">
               <a
-                class="main-header-a-icons"
+                className="main-header-a-icons"
                 href={"https://github.com/dsmith111"}
               >
                 <GitHub style={{ marginRight: "1em" }} />
               </a>
               <a
                 href={"https://www.linkedin.com/in/david-smith-1696a01a9/"}
-                class="main-header-a-icons"
+                className="main-header-a-icons"
               >
                 <LinkedIn style={{ marginRight: "1em" }} />
               </a>
               <a
                 href={"https://twitter.com/The_David_smith"}
-                class="main-header-a-icons"
+                className="main-header-a-icons"
               >
                 <Twitter style={{ marginRight: "1em" }} />
               </a>
@@ -74,7 +74,7 @@ export default function HomePage() {
           </Box>
         </Parallax>
       </Paper>
-      <Container class="body-wrap">
+      <Container className="body-wrap">
         <Paper style={{ borderRadius: "1em" }} elevation={4}>
           <Tabs
             TabIndicatorProps={{

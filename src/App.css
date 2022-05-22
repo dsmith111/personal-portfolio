@@ -4,7 +4,7 @@
   flex: 1;
   min-height: 45em;
   /* padding-bottom: 3em; */
-  background-color: #d7fafa;
+  background-color: #d7dcfa;
 }
 .toolbar-text {
   display: flex;
@@ -12,7 +12,7 @@
   flex-direction: row;
   font-weight: bold;
   font-size: 1.5em;
-  text-shadow: rgb(9, 67, 82) 0px 0px 1px;
+  text-shadow: rgb(9, 32, 82) 0px 0px 1px;
 }
 .main-header-wrap {
   background-color: "transparent";
@@ -23,7 +23,7 @@
   flex: 1;
   height: 35em;
   text-align: center;
-  color: #16f0d3;
+  color: #1b32b6;
   background-color: rgb(0, 0, 0, 0.3);
   width: 100%;
   justify-content: center;
@@ -35,7 +35,7 @@
   top: 93%;
 }
 .main-header-a-icons {
-  color: #16f0d3;
+  color: #2d4cfc;
 }
 .body-wrap {
   padding: 1em;
@@ -55,26 +55,26 @@
   padding-top: 1%;
   padding-left: 0.5em;
   color: white;
-  text-shadow: rgb(9, 67, 82) 0px 0px 1px;
+  text-shadow: rgb(9, 26, 82) 0px 0px 1px;
 }
 .list-header {
   font-weight: 600;
   font-size: 1.2em;
   margin-bottom: -0.2em;
-  color: #22776c;
+  color: #0e1f7a;
   width: 100%;
   display: flex;
   justify-content: center;
   padding-left: 1.6em;
 }
 .list-sub-header {
-  color: #18685d;
+  color: #0e1f7a;
   font-weight: 600;
   font-style: italic;
   font-size: 1.1em;
 }
 .list-item {
-  color: #18685d;
+  color: #0e1f7a;
   font-weight: 500;
 
   margin-bottom: 1.2em;
@@ -83,7 +83,7 @@
   padding-left: 1em;
   padding-right: 2em;
   font-weight: 400;
-  color: #165850;
+  color: #0e1f7a;
 }
 
 .about-me-desc {
@@ -96,7 +96,7 @@
   padding-bottom: 1.4em;
   text-align: left;
   font-size: 1.1em;
-  color: #18685d;
+  color: #0e1f7a;
 }
 .about-picture-wrapper {
   justify-content: flex-end;
@@ -108,22 +108,22 @@
 }
 .card-title {
   font-weight: bold;
-  color: #22776c;
+  color: #0e1f7a;
   text-align: center;
 }
 .card-sub-desc {
   text-align: center;
   font-weight: 200;
-  color: #18685d;
+  color: #0e1f7a;
 }
 
 .card-body-desc {
   text-align: justify;
-  color: #18685d;
+  color: #0e1f7a;
 }
 .footer {
   color: white;
-  background-color: #18685d;
+  background-color: #0e1f7a;
   height: 4em;
   width: 100%;
   display: flex;

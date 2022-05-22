@@ -7,14 +7,14 @@ export default function PageContent() {
   return (
     <Box
       height="100%"
-      bgcolor="#21d1b9"
+      bgcolor="#1b32b6"
       style={{
         borderBottomLeftRadius: "1em",
         borderBottomRightRadius: "1em",
       }}
     >
       <p
-        class="skill-intro"
+        className="skill-intro"
         style={{ display: "flex", justifyContent: "center" }}
       >
         My Background
@@ -29,19 +29,32 @@ export default function PageContent() {
           borderBottomRightRadius: "1em",
         }}
       >
-        <div class="about-me-desc">
+        <div className="about-me-desc">
           <p>
-            I am a master's student studying Computer Engineering and Artificial
-            Intelligence at the University of Michigan - Dearborn.
+            Currently, I have a master's degree in Computer Engineering with a concentration in intelligent systems and 
+            am a Software Engineer at Microsoft in Azure organization.
           </p>
           <p>
-            Currently I work as a Software Engineer Intern for the NASA Glenn
-            Research Center. Previously, I have worked as a full stack engineer
-            for WynHouse Software, a material researcher for the Polymer and
-            Inorganic Composites, Structures and Surfaces Lab at the University
-            of Toledo (PICCSL), and as an Industrial Engineer at Ford, GM, and
-            Chrysler.
+            Previously, I have worked as:
           </p>
+          <ul>
+              <li>
+                An AI/ML Developer intern and Software Engineer intern at the NASA Glenn Research Center
+              </li>
+              <li>
+                An AI/ML Developer intern at Wind River heading research on a DARPA SBIR project.
+              </li>
+              <li>
+                Full-stack Engineer for WynHouse Software after interning for 5 months.
+              </li>
+              <li>
+                Material researcher for the Polymer and Inorganic Composites, Structures and Surfaces Lab at the
+                University of Toledo (PICCSL)
+              </li>
+              <li>
+                As an Engineer intern for ROI consulting in industrial engineering at Ford, GM, and Chrysler.
+              </li>
+          </ul>
           <p>
             I have a Bachelor's of Science in Mechanical Engineering with minors
             in physics and mathematics from the University of Toledo. I have two
@@ -53,16 +66,15 @@ export default function PageContent() {
             Fermi Lab and more.
           </p>
           <p>
-            I have a growing love for the field of Artificial Intelligence,
+            I have a continuously growing love for the field of Artificial Intelligence,
             mainly in computer vision and reinforcement learning. I am fond of
-            the idea of embedded AI systems. Ranging from telling you what the
-            weather is, to controlling a robot, or even optimizing flight
-            trajectories on a rocket, there are still great strides yet to be
-            made in this area and I wish to be a part of them.
+            the idea of neuromorphic AI systems. Biological Artificial Intelligence topics such as spiking neural networks
+            have begun to see a myriad of publications and strides in the past two years; the field is rapidly growing and
+            with plenty of quesitons yet to be answered, and I wish to be a part of it.
           </p>
         </div>
         <div
-          class="about-picture-wrapper"
+          className="about-picture-wrapper"
           style={
             width < 768
               ? {
@@ -82,7 +94,7 @@ export default function PageContent() {
         >
           <SRLWrapper>
             <img
-              class="about-picture"
+              className="about-picture"
               src={`${process.env.PUBLIC_URL}/assets/me.jpeg`}
             />
           </SRLWrapper>
